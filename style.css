@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  height: 400px;
+  background-image: url(img/mv.jpg);
+  background-position: bottom;
+}
+.heading {
+  padding: 20px 0 0 20px;
+  color: cadetblue;
+}
+main {
+  display: flex;
+  justify-content: center;
+}
+.blog {
+  width: 840px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.blog-content {
+  border-bottom: 1px solid cadetblue;
+  padding: 30px 0;
+}
+.content-text{
+  color: cadetblue;
+}
+.content-link{
+  color: cadetblue;
+}
